@@ -3,8 +3,8 @@ import base64
 import pandas as pd
 
 # Freshservice API details
-url = "https://csusystem.freshservice.com/api/v2/tickets"
-api_key = "liCtZtNVTw1K2QyC9GiR"  # Replace with your actual API key
+url = "https://xxxxx" # your freshservice url
+api_key = "add your admin api here"  # Add your Admin API
 auth_header = base64.b64encode(f"{api_key}:X".encode()).decode()
 
 headers = {
@@ -13,7 +13,7 @@ headers = {
 }
 
 # Load Excel file
-file_path = "/Users/vishnujordan/Desktop/ITSM - API PJ.xlsx"
+file_path = "Your excel file path" # the excel file path - the excel that needs to be converted into a dataframe in python
 df = pd.read_excel(file_path, engine='openpyxl')
 
 
