@@ -2,7 +2,7 @@
 Automates IT ticket creation and updates in Freshservice using an Excel file. Reads data, creates tickets, updates statuses, and includes formatted dates in descriptions. Ensures efficiency with bulk processing, error handling, and API integration. Simplifies IT workflows with a scalable and configurable approach.
 
 
-# ITSM Freshservice Ticket Automation 🚀
+# ITSM Freshservice Ticket Automation 
 
 This project automates the process of creating and updating ITSM Freshservice tickets using Python.
 
